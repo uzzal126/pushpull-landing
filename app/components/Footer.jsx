@@ -19,7 +19,7 @@ const Footer = () => {
             <h3 className="text-white text-2xl font-bold ">
               24/7 Call
               <a
-                href="callto:09611016303"
+                href="tel:09611016303"
                 className="text-primary inline-block transition-all hover:scale-105 pl-3"
               >
                 09611016303

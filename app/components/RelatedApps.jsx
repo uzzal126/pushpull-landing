@@ -4,7 +4,7 @@ const RelatedApps = ({ services, id }) => {
   const data = services.filter((item) => item.id !== id);
 
   return (
-    <div className="py-10 md:py-15 bg-[#f8f8f8]">
+    <div className="pt-10 pb-15 md:pt-15 bg-[#f8f8f8]">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-light">

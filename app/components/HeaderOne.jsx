@@ -19,7 +19,7 @@ const HeaderOne = () => {
             <div className="relative flex items-center justify-end">
               <div className="">
                 <a
-                  href="callto:09611016303"
+                  href="tel:09611016303"
                   className="inline-block bg-primary rounded-full text-white py-2 px-7 transition-all hover:bg-secondary"
                 >
                   Help?
