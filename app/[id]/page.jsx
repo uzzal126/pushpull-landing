@@ -3,6 +3,10 @@ import RelatedApps from "@/app/components/RelatedApps";
 
 import services from "@/data/index";
 
+export const metadata = {
+  title: "PushPull App Details",
+};
+
 const AppDetails = ({ params }) => {
   const { id } = params;
 

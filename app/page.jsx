@@ -5,6 +5,10 @@ import ServiceCardWrapper from "@/app/components/ServiceCardWrapper";
 
 import services from "@/data/index";
 
+export const metadata = {
+  title: "PushPull Entertainment Services",
+};
+
 const HomeView = () => {
   return (
     <>
