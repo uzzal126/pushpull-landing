@@ -11,7 +11,7 @@ const services = [
     icon: "/images/icons/sports.png",
     title: "Latest Sports Update",
     banner: topSports,
-    keyword: "sports",
+    keyword: "SPORTS",
     description:
       "Latest Sports Update SMS content has been a very popular form of content users, whereas there are a lot of customer from all spheres of life apply for such content. however there are web options to go and see such content from other locations, we try to source the best content available there is on the market.",
   },
@@ -20,7 +20,7 @@ const services = [
     icon: "/images/icons/love-tips.png",
     title: "Love Tips",
     banner: loveTips,
-    keyword: "love",
+    keyword: "LOVE",
     description:
       "Love Tips SMS content has been a very popular form of content users, whereas there are a lot of customer from all spheres of life apply for such content. however there are web options to go and see such content from other locations, we try to source the best content available there is on the market.",
   },
@@ -29,7 +29,7 @@ const services = [
     icon: "/images/icons/daily-jokes.png",
     title: "Daily Funny Jokes",
     banner: dailyFunnyJokes,
-    keyword: "comics",
+    keyword: "COMICS",
     description:
       "Daily Funny Jokes SMS content has been a very popular form of content users, whereas there are a lot of customer from all spheres of life apply for such content. however there are web options to go and see such content from other locations, we try to source the best content available there is on the market.",
   },
@@ -38,7 +38,7 @@ const services = [
     icon: "/images/icons/friendship.png",
     title: "Friendship Tips",
     banner: friendshipTips,
-    keyword: "friendship",
+    keyword: "FRIENDSHIP",
     description:
       "Friendship Tips SMS content has been a very popular form of content users, whereas there are a lot of customer from all spheres of life apply for such content. however there are web options to go and see such content from other locations, we try to source the best content available there is on the market.",
   },
@@ -47,7 +47,7 @@ const services = [
     icon: "/images/icons/celebrity.png",
     title: "Celebrity Updates",
     banner: celebrityUpdates,
-    keyword: "celebrity",
+    keyword: "CELEBRITY",
     description:
       "Celebrity Updates SMS content has been a very popular form of content users, whereas there are a lot of customer from all spheres of life apply for such content. however there are web options to go and see such content from other locations, we try to source the best content available there is on the market.",
   },
@@ -56,7 +56,7 @@ const services = [
     icon: "/images/icons/horoscope.png",
     title: "Daily Horoscope",
     banner: dailyHoroscope,
-    keyword: "horscope",
+    keyword: "HORSCOPE",
     description:
       "Daily Horoscope SMS content has been a very popular form of content users, whereas there are a lot of customer from all spheres of life apply for such content. however there are web options to go and see such content from other locations, we try to source the best content available there is on the market.",
   },
