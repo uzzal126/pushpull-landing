@@ -2,28 +2,25 @@ const AppDetailsContent = ({ service }) => {
   return (
     <div className="content">
       <h1 className="text-2xl uppercase font-bold mb-5">{service.title}</h1>
-      <span className="text-base text-[#808080] font-medium">Description:</span>
-      <p className="text-sm mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae qui sit
-        saepe reprehenderit molestias soluta quam vero eum itaque fugit magnam
-        alias quasi, nesciunt, sed ab quia asperiores?
+      <span className="text-base text-[#808080] font-medium mb-1 inline-block">
+        Description:
+      </span>
+      <p className="text-sm mb-5">{service.description}</p>
+      <span className="text-base text-[#808080] font-medium mb-1 inline-block">
+        Instructions
+      </span>
+      <p className="text-sm">
+        Type <span className="uppercase">'{service.keyword}'</span> And Send To
+        16303
       </p>
-      <span className="text-base text-[#808080] font-medium">Cost</span>
-      <p className="text-sm ">Receiving messages from this application: Free</p>
-      <p className="text-sm">Sending messages to this application: Free</p>
-      <p className="text-sm mb-5 mt-5">
-        Subscription: Daily 2.00 BDT + VAT, SD and SC (auto-renew applicable)
-      </p>
-      <span className="text-base text-[#808080] font-medium">Instructions</span>
-      <p className="text-sm mb-10">
-        How to Use Type 'START 69699' And Send To 21213 Type 'STOP 69699' And
-        Send To 21213
+      <p className="text-[12px] mb-5 text-[#808080]">
+        (Charge: 2.00 BDT + VAT, SD and SC)
       </p>
       <a
-        href={`sms:16230?body=${encodeURIComponent("Hello, MoMagic")}`}
+        href={`sms:16303?body=${encodeURIComponent(service.keyword)}`}
         className="inline-block bg-primary rounded-full text-white py-3 px-8 transition-all hover:bg-secondary"
       >
-        Download
+        Download Message
       </a>
     </div>
   );

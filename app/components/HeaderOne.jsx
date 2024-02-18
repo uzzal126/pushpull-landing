@@ -18,12 +18,12 @@ const HeaderOne = () => {
           <div className="col-span-6 md:col-span-9">
             <div className="relative flex items-center justify-end">
               <div className="">
-                <Link
-                  href="/"
+                <a
+                  href="callto:09611016303"
                   className="inline-block bg-primary rounded-full text-white py-2 px-7 transition-all hover:bg-secondary"
                 >
                   Help?
-                </Link>
+                </a>
               </div>
             </div>
           </div>
