@@ -20,7 +20,7 @@ const HeaderOne = () => {
               <div className="">
                 <Link
                   href="/"
-                  className="text-sm text-white font-semibold bg-primary inline-block px-7 py-3 leading-none rounded-full hover:bg-secondary transition-all"
+                  className="inline-block bg-primary rounded-full text-white py-2 px-7 transition-all hover:bg-secondary"
                 >
                   Help?
                 </Link>

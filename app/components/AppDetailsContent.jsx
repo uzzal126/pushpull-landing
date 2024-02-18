@@ -1,18 +1,4 @@
-"use client";
-
-import services from "@/data";
-import { useEffect, useState } from "react";
-
 const AppDetailsContent = ({ service }) => {
-  const [isOpenModal, setIsOpenModal] = useState(false);
-
-  const [mobileNumber, setMobileNumber] = useState("");
-
-  const [relatedApps, setRelatedApps] = useState([]);
-  useEffect(() => {
-    const data = services.filter((item) => item.id !== item.id);
-  }, []);
-
   return (
     <div className="content">
       <h1 className="text-2xl uppercase font-bold mb-5">{service.title}</h1>
@@ -39,34 +25,6 @@ const AppDetailsContent = ({ service }) => {
       >
         Download
       </a>
-      {/* <button
-        type="button"
-        className="ml-4 mt-3 bg-primary rounded-full text-white py-3 px-8 transition-all hover:bg-secondary"
-        onClick={() => setIsOpenModal((prev) => !prev)}
-      >
-        Toggle button
-      </button> */}
-      {isOpenModal ? (
-        <div className="form bg-pink-100 rounded p-5 mt-5">
-          <form onSubmit={handleSubmit}>
-            <input
-              type="number"
-              placeholder="Type your mobile number"
-              className="w-48 block px-4 py-2"
-              value={mobileNumber}
-              onChange={(e) => setMobileNumber(e.target.value)}
-            />
-            <button
-              type="submit"
-              className="mt-3 bg-primary rounded-full text-white py-1 px-5 transition-all hover:bg-secondary"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
-      ) : (
-        <></>
-      )}
     </div>
   );
 };
