@@ -4,7 +4,7 @@ import ServiceCard from "@/app/components/ServiceCard";
 
 const ServiceCardWrapper = ({ services }) => {
   return (
-    <div className="pt-15 md:pt-32">
+    <div className="pt-10 lg:pt-32">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-light">

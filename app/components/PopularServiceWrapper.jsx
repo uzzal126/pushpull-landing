@@ -25,7 +25,7 @@ const services = [
 
 const PopularServiceWrapper = () => {
   return (
-    <div className="py-15">
+    <div className="pt-10 lg:py-15">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-light">

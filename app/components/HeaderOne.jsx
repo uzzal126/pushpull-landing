@@ -5,7 +5,7 @@ import logo from "@/public//images/logo/logo.svg";
 
 const HeaderOne = () => {
   return (
-    <header className="py-4 absolute w-full">
+    <header className="py-4 absolute w-full bg-[#3D0000]">
       <div className="container">
         <div className="grid grid-cols-12 items-center">
           <div className="col-span-6 md:col-span-3">

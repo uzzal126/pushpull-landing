@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-// import playStoreIcon from "@/public/images/icons/playstore-icon.svg";
-import logo from "@/public/images/logo/logo-dark.png";
+import playStoreIcon from "@/public/images/google-play-badge.png";
 
 const PlayStoreBanner = () => {
   return (
@@ -14,12 +13,12 @@ const PlayStoreBanner = () => {
                 <h3 className="uppercase text-2xl md:text-4xl font-bold text-primary mb-4">
                   Pushpull mobile app
                 </h3>
-                <div className="max-w-[200px] md:max-w-[250px]">
+                <div className="max-w-[150px] lg:max-w-[200px]">
                   <a
                     href="https://play.google.com/store/search?q=mkiddo&c=apps&hl=en&gl=US"
                     target="_blank"
                   >
-                    <Image src={logo} alt="play store" />
+                    <Image src={playStoreIcon} alt="play store" />
                   </a>
                 </div>
               </div>
