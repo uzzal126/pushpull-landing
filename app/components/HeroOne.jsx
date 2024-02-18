@@ -28,9 +28,22 @@ const HeroOne = ({ services }) => {
                 <div className="py-10">
                   <div className="grid grid-cols-12">
                     <div className="col-span-12 md:col-span-6">
-                      <div className="text-2xl text-left text-white font-semibold pt-20 pb-5 md:pb-0">
-                        <Link href={`${service.id}`}>
-                          Click to experience &#129122;
+                      <div className="text-2xl text-left font-semibold pt-20 pb-5 md:pb-0 group text-white hover:text-primary">
+                        <Link
+                          href={`${service.id}`}
+                          className="flex items-center leading-none "
+                        >
+                          Click to experience
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="25"
+                            height="25"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            className="mt-1.5 fill-white group-hover:fill-primary"
+                          >
+                            <path d="M6.7168 13.55L10.5501 9.71667L6.7168 5.88334L7.88346 4.71667L12.8835 9.71667L7.88346 14.7167L6.7168 13.55Z"></path>
+                          </svg>
                         </Link>
                       </div>
                     </div>
