@@ -7,7 +7,7 @@ const RelatedApps = ({ services, id }) => {
     <div className="pt-10 pb-15 md:pt-15 bg-[#f8f8f8]">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-light">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-[#333]">
             Related Services
           </h2>
         </div>
