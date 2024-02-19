@@ -28,7 +28,7 @@ const PopularServiceWrapper = () => {
     <div className="py-10 md:py-15">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-light">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-[#333]">
             Our Popular Services
           </h2>
         </div>

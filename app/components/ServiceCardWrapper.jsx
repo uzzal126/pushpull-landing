@@ -5,7 +5,7 @@ const ServiceCardWrapper = ({ services }) => {
     <div className="pt-10 md:pt-28">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-light">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-[#333]">
             Entertainment Services
           </h2>
         </div>

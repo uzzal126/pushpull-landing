@@ -1,7 +1,9 @@
 const AppDetailsContent = ({ service }) => {
   return (
     <div className="content">
-      <h1 className="text-2xl uppercase font-bold mb-5">{service.title}</h1>
+      <h1 className="text-2xl text-[#333] uppercase font-bold mb-5">
+        {service.title}
+      </h1>
       <span className="text-base text-[#808080] font-medium mb-1 inline-block">
         Description:
       </span>
