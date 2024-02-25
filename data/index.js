@@ -1,9 +1,9 @@
-import celebrityUpdates from "@/public/images/hero/celebrity-updates-banner.svg";
-import dailyFunnyJokes from "@/public/images/hero/daily-funny-jokes-banner.svg";
-import dailyHoroscope from "@/public/images/hero/daily-horoscope-banner.svg";
-import friendshipTips from "@/public/images/hero/friendship-tips-banner.svg";
-import loveTips from "@/public/images/hero/love-tips-banner.svg";
-import topSports from "@/public/images/hero/top-sports-banner.svg";
+import celebrityUpdates from "@/public/images/hero/celebrity-updates-banner.png";
+import dailyFunnyJokes from "@/public/images/hero/daily-funny-jokes-banner.png";
+import dailyHoroscope from "@/public/images/hero/daily-horoscope-banner.png";
+import friendshipTips from "@/public/images/hero/friendship-tips-banner.png";
+import loveTips from "@/public/images/hero/love-tips-banner.png";
+import topSports from "@/public/images/hero/top-sports-banner.png";
 
 const services = [
   {
