@@ -48,7 +48,7 @@ const HeroOne = ({ services }) => {
                       </div>
                     </div>
                     <div className="col-span-12 md:col-span-6">
-                      <div className="text-right">
+                      <div className="text-right overflow-hidden rounded-tl-[70px] rounded-br-[70px]">
                         <Link href={`${service.id}`}>
                           <Image src={service.banner} alt={service.title} />
                         </Link>
