@@ -19,7 +19,11 @@ const AppDetails = ({ params }) => {
           <div className="grid grid-cols-12 gap-7">
             <div className="col-span-12 md:col-span-4">
               <div className="thumb">
-                <img src={service.icon} alt={service.title} />
+                <img
+                  src={service.iconBig}
+                  alt={service.title}
+                  className="rounded-xl overflow-hidden"
+                />
               </div>
             </div>
             <div className="col-span-12 md:col-span-8">

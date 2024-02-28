@@ -2,6 +2,9 @@ import { Gantari } from "next/font/google";
 import Footer from "./components/Footer";
 import HeaderOne from "./components/HeaderOne";
 
+import "swiper/css";
+import "swiper/css/pagination";
+
 import "./globals.css";
 
 const gantari = Gantari({
