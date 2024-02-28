@@ -9,6 +9,7 @@ const services = [
   {
     id: "101",
     icon: "/images/icons/sports.png",
+    iconBig: "/images/icons/sports-big.png",
     title: "Latest Sports Update",
     banner: topSports,
     keyword: "SPORTS",
@@ -18,6 +19,7 @@ const services = [
   {
     id: "102",
     icon: "/images/icons/love-tips.png",
+    iconBig: "/images/icons/love-tips-big.png",
     title: "Love Tips",
     banner: loveTips,
     keyword: "LOVE",
@@ -27,6 +29,7 @@ const services = [
   {
     id: "103",
     icon: "/images/icons/daily-jokes.png",
+    iconBig: "/images/icons/daily-jokes-big.png",
     title: "Daily Funny Jokes",
     banner: dailyFunnyJokes,
     keyword: "COMICS",
@@ -36,6 +39,7 @@ const services = [
   {
     id: "104",
     icon: "/images/icons/friendship.png",
+    iconBig: "/images/icons/friendship-big.png",
     title: "Friendship Tips",
     banner: friendshipTips,
     keyword: "FRIENDSHIP",
@@ -45,6 +49,7 @@ const services = [
   {
     id: "105",
     icon: "/images/icons/celebrity.png",
+    iconBig: "/images/icons/celebrity-big.png",
     title: "Celebrity Updates",
     banner: celebrityUpdates,
     keyword: "CELEBRITY",
@@ -54,6 +59,7 @@ const services = [
   {
     id: "106",
     icon: "/images/icons/horoscope.png",
+    iconBig: "/images/icons/horoscope-big.png",
     title: "Daily Horoscope",
     banner: dailyHoroscope,
     keyword: "HORSCOPE",
