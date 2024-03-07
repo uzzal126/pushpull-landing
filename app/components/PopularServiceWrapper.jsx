@@ -35,7 +35,7 @@ const PopularServiceWrapper = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 items-center">
           {services.map((service) => (
             <div
-              className="service-card group overflow-hidden"
+              className="group overflow-hidden rounded-[30px]"
               key={service.id}
             >
               <Image
