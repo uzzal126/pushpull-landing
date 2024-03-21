@@ -55,8 +55,7 @@ module.exports = {
     },
 
     fontFamily: {
-      gantari: ["var(--font-gantari)"],
-      spectral: ["var(--font-spectral)"],
+      inter: ["var(--font-inter)"],
     },
 
     container: {

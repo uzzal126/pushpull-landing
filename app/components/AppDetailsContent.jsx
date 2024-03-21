@@ -12,8 +12,9 @@ const AppDetailsContent = ({ service }) => {
         Instructions
       </span>
       <p className="text-sm">
-        Type <span className="uppercase">'{service?.attributes?.keyword}'</span>{" "}
-        And Send To 16303
+        Type{" "}
+        <span className="uppercase">'{service?.attributes?.keyword}' </span>
+        and send to 16303
       </p>
       <p className="text-[12px] mb-5 text-[#808080]">
         (Charge: 2.00 BDT + VAT, SD and SC)

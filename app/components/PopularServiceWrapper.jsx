@@ -1,9 +1,8 @@
-"use client";
 import Image from "next/image";
 
-import azan from "@/public/images/services/azan-banner.svg";
-import ivr from "@/public/images/services/ivr-banner.svg";
-import rahamaQuran from "@/public/images/services/rahama-quran-banner.svg";
+import azan from "@/public/images/services/azan-banner.jpg";
+import ivr from "@/public/images/services/ivr-banner.jpg";
+import rahamaQuran from "@/public/images/services/rahama-quran-banner.jpg";
 
 const services = [
   {

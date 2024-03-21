@@ -3,10 +3,6 @@ import PlayStoreBanner from "@/app/components/PlayStoreBanner";
 import PopularServiceWrapper from "@/app/components/PopularServiceWrapper";
 import ServiceCardWrapper from "@/app/components/ServiceCardWrapper";
 
-export const metadata = {
-  title: "PushPull Entertainment Services",
-};
-
 const api_url = `${process.env.NEXT_PUBLIC_APP_STRAPI_URL}/push-pull-entertainment-services?populate=*`;
 
 const getData = async () => {
