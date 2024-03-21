@@ -1,9 +1,8 @@
-"use client";
 import Image from "next/image";
 
-import azan from "@/public/images/services/azan-banner.svg";
-import ivr from "@/public/images/services/ivr-banner.svg";
-import rahamaQuran from "@/public/images/services/rahama-quran-banner.svg";
+import azan from "@/public/images/services/azan-banner.jpg";
+import ivr from "@/public/images/services/ivr-banner.jpg";
+import rahamaQuran from "@/public/images/services/rahama-quran-banner.jpg";
 
 const services = [
   {
@@ -35,7 +34,7 @@ const PopularServiceWrapper = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 items-center">
           {services.map((service) => (
             <div
-              className="service-card group overflow-hidden"
+              className="group overflow-hidden rounded-[30px]"
               key={service.id}
             >
               <Image

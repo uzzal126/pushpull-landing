@@ -7,12 +7,12 @@ const Footer = () => {
     <footer className=" bg-black bg-opacity-90">
       <div className="container">
         <div className="py-10 md:flex justify-between items-center">
-          <div className="logo">
+          <div className="logo text-center">
             <Link href="/">
               <Image src={logo} alt="PushPull" />
             </Link>
           </div>
-          <div className="mt-4 md:mt-0">
+          <div className="mt-4 md:mt-0 text-center">
             <h2 className="text-white text-2xl md:text-3xl font-medium mb-2">
               We are here to help
             </h2>
@@ -30,11 +30,11 @@ const Footer = () => {
         <div className="footer-bottom border-t-2 border-t-white border-opacity-20 py-5">
           <div className="md:flex justify-between items-center">
             <div className="copyright">
-              <h6 className="text-base md:text-lg text-white">
+              <h6 className="text-base md:text-lg text-white text-center">
                 @ 2024 Copyright by PushPull
               </h6>
             </div>
-            <ul className="flex items-center">
+            <ul className="flex items-center justify-center">
               <li className="text-base md:text-lg text-white transition-all mr-5 last:mr-0 hover:text-primary">
                 <Link href="/privacy-policy">Privacy Policy</Link>
               </li>

@@ -3,7 +3,6 @@
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Image from "next/image";
 import Link from "next/link";
 
 const HeroOne = ({ services }) => {
@@ -21,15 +20,15 @@ const HeroOne = ({ services }) => {
             className="mySwiper"
             speed="900"
           >
-            {services.map((service) => (
+            {services?.data?.map((service) => (
               <SwiperSlide key={service.id}>
                 <div className="py-10">
                   <div className="grid grid-cols-12">
                     <div className="col-span-12 md:col-span-6">
                       <div className="text-2xl text-left font-semibold pt-20 pb-5 md:pb-0 group text-white hover:text-primary">
                         <Link
-                          href={`${service.id}`}
-                          className="flex items-center leading-none "
+                          href={`/services/${service?.attributes?.slug}`}
+                          className="flex items-center justify-center md:justify-start leading-none "
                         >
                           Click to experience
                           <svg
@@ -47,8 +46,11 @@ const HeroOne = ({ services }) => {
                     </div>
                     <div className="col-span-12 md:col-span-6">
                       <div className="text-right overflow-hidden rounded-tl-[70px] rounded-br-[70px]">
-                        <Link href={`${service.id}`}>
-                          <Image src={service.banner} alt={service.title} />
+                        <Link href={`/services/${service?.attributes?.slug}`}>
+                          <img
+                            src={`https://cms.webmanza.com${service?.attributes?.banner?.data?.attributes?.url}`}
+                            alt={service?.attributes?.title}
+                          />
                         </Link>
                       </div>
                     </div>

@@ -1,7 +1,7 @@
 import ServiceCard from "@/app/components/ServiceCard";
 
-const RelatedApps = ({ services, id }) => {
-  const data = services.filter((item) => item.id !== id);
+const RelatedApps = ({ services, slug }) => {
+  const data = services?.filter((item) => item.attributes?.slug !== slug);
 
   return (
     <div className="pt-10 pb-15 md:pt-15 bg-[#f8f8f8]">
@@ -12,7 +12,7 @@ const RelatedApps = ({ services, id }) => {
           </h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 lg:gap-7 items-center">
-          {data.map((service) => (
+          {data?.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}
         </div>
